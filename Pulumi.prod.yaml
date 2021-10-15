@@ -1,0 +1,4 @@
+config:
+  aws:profile: datadeft-dev
+  aws:region: eu-west-1
+  pulumi:template: aws-typescript
