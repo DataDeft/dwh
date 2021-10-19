@@ -38,3 +38,5 @@ const etlBucket = new aws.s3.Bucket("datadeft-etl", {
 export const logsBucketOutput = getBucketDetails(logsBucket)
 export const dwhBucketOutput = getBucketDetails(dwhBucket)
 export const etlBucketOutput = getBucketDetails(etlBucket)
+
+
